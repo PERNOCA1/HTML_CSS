@@ -1,0 +1,30 @@
+
+
+fieldset {
+    margin: 10px;
+    padding: 10px;
+}
+
+input, label, textarea, button {
+    display: block;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px ;
+}
+
+input:focus, textarea:focus {
+    background: yellow ;
+    outline: none;
+    border: 1px solid #000;
+    padding: 11px;
+}
+
+label {
+    margin: 10px 0 10px 0;
+}
+
+button {
+    margin: 0 auto;
+}

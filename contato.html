@@ -5,7 +5,7 @@
         <title>Minha Página</title>
 
         <link href="css/esqueleto.css" rel="stylesheet" type="text/css" />
-        <link href="css/tabelas.css" rel="stylesheet" type="text/css"/>
+        <link href="css/formulario.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>
@@ -28,7 +28,20 @@
             </aside>
 
             <section>
-                Meio
+                <form action="enviar.php" method="GET">
+                    <fieldset>
+                        <legend>Formulário de Contato</legend>
+
+                        <label for="remetente">Remetente:</label>
+                        <input id="remetente" name="remetente" type="text" required autocomplete="off"/>
+
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem"></textarea>
+
+                        <button type="submit">Enviar</button>
+
+                    </fieldset>
+                </form>
             </section>
 
             <aside>

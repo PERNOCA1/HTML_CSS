@@ -1,0 +1,30 @@
+
+section {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+
+#tabela-produtos {
+
+    width: 95%;
+    /*border: 1px solid #000;*/
+    margin: 10px 0 10px 10px;
+    border-collapse: collapse;
+    cursor: default;
+}
+
+
+#tabela-produto th, #tabela-produtos td {
+    text-align: left;
+    border-bottom: 1px solid #000 ;
+}
+
+#tabela-produto td {
+    padding: 5px;
+}
+
+#tabela-produto tbody tr:hover {
+
+    background: yellow;
+}
